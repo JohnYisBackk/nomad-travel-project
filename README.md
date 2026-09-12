@@ -21,7 +21,7 @@ Built with **HTML, CSS and Vanilla JavaScript**.
 <br />
 
 <img src="preview.png" alt="NOMAD Travel & Hospitality Preview" width="100%" />
-
+   
 </div>
 
 ---
