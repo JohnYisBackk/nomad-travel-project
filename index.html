@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- LUCIDE ICONS -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js" defer></script>
+
+    <title>NOMAD | Travel & Hospitality</title>
+  </head>
+  <body>
+    <!-- ===============================
+     HEADER 
+    ================================ -->
+
+    <header class="header" id="header">
+      <a href="#stays" class="logo">Nomad</a>
+
+      <nav class="nav" id="nav">
+        <a href="#stays" class="nav-link active">Stays</a>
+        <a href="#experiences" class="nav-link">Experiences</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="contact-btn">Book a stay</a>
+
+      <button
+        type="button"
+        class="menu-btn"
+        id="menuBtn"
+        aria-expanded="false"
+        aria-label="Open navigation"
+        aria-controls="nav"
+      >
+        <svg
+          viewBox="0 0 32 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <path d="M2 5H30" />
+          <path d="M8 15H30" />
+        </svg>
+      </button>
+    </header>
+
+    <!-- ===============================
+       STAYS SECTION
+    ================================ -->
+
+    <section class="stays" id="stays">
+      <div class="stays-wrapper">
+        <span class="stays-category-text"> Travel / Stay / Explore </span>
+
+        <h1 class="stays-heading">
+          Escape <br />
+          Reconnect <br />
+          Belong.
+        </h1>
+
+        <p class="stays-text">Unique stays in extraordinary places.</p>
+
+        <a href="#experiences" class="stays-btn">
+          <i data-lucide="arrow-right"></i>
+          Explore stays
+        </a>
+      </div>
+
+      <div class="stays-location-info">
+        <div class="stays-location-number">01 / 03</div>
+        <div class="stays-location-line"></div>
+
+        <p>
+          Mountain Cabin <br />
+          Slovakia
+        </p>
+      </div>
+    </section>
+
+    <!-- ===============================
+       EXPERIENCES SECTION
+    ================================ -->
+
+    <section class="experiences" id="experiences">
+      <div class="experiences-wrapper">
+        <div class="experiences-image">
+          <img
+            src="images/experiences-photo.png"
+            alt="Mountain cabin interior"
+            class="experiences-main-photo"
+          />
+        </div>
+
+        <div class="experiences-main-text">
+          <span class="experiences-pre-heading">A Different way to travel</span>
+
+          <h2 class="experiences-heading">
+            Stays that <br />
+            feel different.
+          </h2>
+          <p class="experiences-text">
+            Carefully selected places to slow down, breathe deeper and
+            experience more.
+          </p>
+
+          <a href="#contact" class="experiences-btn">
+            <i data-lucide="arrow-right"></i>
+            Learn More</a
+          >
+        </div>
+
+        <div class="experiences-stats">
+          <div class="experiences-line"></div>
+
+          <div class="experiences-stat">
+            <span>01</span>
+            <p>Curated Stays</p>
+          </div>
+
+          <div class="experiences-stat">
+            <span>02</span>
+            <p>Local Experiences</p>
+          </div>
+
+          <div class="experiences-stat">
+            <span>03</span>
+            <p>Meaningful Journeys</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="experiences-wrapper-destinations">
+        <span class="destinations-heading"> Destinations </span>
+
+        <div class="destinations-text">
+          <h2 class="destinations-main-text">Discover places that inspire.</h2>
+
+          <p class="destinations-small-text">
+            From mountain cabins to lake houses,<br />
+            each location is handpicked for its natural <br />
+            beauty and unique atmosphere.
+          </p>
+
+          <a href="#stays" class="destinations-btn">
+            Explore destinations
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="destinations-images-wrapper">
+        <div class="destinations-image">
+          <img
+            src="images/destinations-mountains.png"
+            alt="Mountain destination"
+            class="destination-view-img"
+          />
+
+          <h3>Mountains</h3>
+          <p>Discover</p>
+
+          <i data-lucide="arrow-right"></i>
+        </div>
+
+        <div class="destinations-image">
+          <img
+            src="images/destinations-lakes.png"
+            alt="Lake destination"
+            class="destination-view-img"
+          />
+
+          <h3>Lakes</h3>
+          <p>Unwind</p>
+
+          <i data-lucide="arrow-right"></i>
+        </div>
+
+        <div class="destinations-image">
+          <img
+            src="images/destinations-forests.png"
+            alt="Forest destination"
+            class="destination-view-img"
+          />
+
+          <h3>Forests</h3>
+          <p>Explore</p>
+
+          <i data-lucide="arrow-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============================
+       CONTACT SECTION
+    ================================ -->
+
+    <section class="contact" id="contact">
+      <div class="contact-image-intro">
+        <img src="images/contact-img.png" alt="" />
+
+        <div class="contact-text">
+          <h2>
+            "Not just a place to stay, <br />
+            but a different way to see the world."
+          </h2>
+
+          <div class="contact-brand">
+            <div class="contact-line"></div>
+            <p>NOMAD</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-footer">
+        <div class="contact-footer-text">
+          <h3 class="footer-heading">Join the journey</h3>
+          <p class="footer-text">
+            Be the first to discover new locations, special offers and travel
+            stories.
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <input
+            type="email"
+            class="contact-input"
+            placeholder="Your email"
+            aria-label="Your email"
+            required
+          />
+
+          <button type="submit" class="contact-submit" aria-label="Subscribe">
+            <i data-lucide="arrow-right"></i>
+          </button>
+        </form>
+
+        <div class="contact-footer-nav">
+          <a href="#stays" class="logo">Nomad</a>
+
+          <nav class="nav-contact" id="contactNavigation">
+            <a href="#stays" class="footer-nav-link active">Stays</a>
+            <a href="#experiences" class="footer-nav-link">Experiences</a>
+            <a href="#contact" class="footer-nav-link">Contact</a>
+          </nav>
+
+          <div class="contact-footer-icons">
+            <a href="#" aria-label="Instagram">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle
+                  cx="17.5"
+                  cy="6.5"
+                  r="1"
+                  fill="currentColor"
+                  stroke="none"
+                />
+              </svg>
+            </a>
+
+            <a href="#" aria-label="Facebook">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M14 8H17V4.5C16.3 4.4 15.1 4.3 13.8 4.3C11.2 4.3 9.4 5.9 9.4 8.9V11H6.5V15H9.4V22H13.5V15H16.7L17.2 11H13.5V9.3C13.5 8.4 13.8 8 14 8Z"
+                />
+              </svg>
+            </a>
+
+            <a href="#" aria-label="Pinterest">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M9.8 18L11.2 12.5" />
+                <path
+                  d="M11.2 12.5C10.6 11.8 10.4 10.9 10.6 10C10.9 8.5 12 7.6 13.3 7.8C14.9 8 15.5 9.4 15.2 10.8C14.9 12.3 13.8 13.2 12.7 13C12 12.9 11.4 12.4 11.2 11.8"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
