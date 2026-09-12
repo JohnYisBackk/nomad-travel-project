@@ -315,7 +315,7 @@ ul {
       rgba(0, 0, 0, 0.25) 55%,
       rgba(0, 0, 0, 0.15) 100%
     ),
-    url("../images/home-bg.png") center / cover no-repeat;
+    url("images/home-bg.png") center / cover no-repeat;
 }
 
 .stays-wrapper {
