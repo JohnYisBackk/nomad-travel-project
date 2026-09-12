@@ -103,6 +103,7 @@ nomad-travel/
 ├── style.css
 ├── script.js
 ├── preview.png
+├── README.md
 ├── LICENSE
 │
 └── images/
