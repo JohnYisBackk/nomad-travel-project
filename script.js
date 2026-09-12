@@ -155,7 +155,3 @@ document.addEventListener("click", (event) => {
     closeMenu();
   }
 });
-
-// ===============================
-// INITIALIZE APP
-// ===============================
