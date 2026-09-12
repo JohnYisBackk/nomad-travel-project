@@ -16,7 +16,7 @@ Built with **HTML, CSS and Vanilla JavaScript**.
 
 ## Live Demo
 
-### [View NOMAD Live]()
+### [View NOMAD Live](https://johnyisbackk.github.io/nomad-travel-project/#stays)
 
 <br />
 
